@@ -1,0 +1,301 @@
+*{
+    font-family: poppins;
+    text-decoration: none;
+    list-style-type: none;
+    color: #687279
+    font-weight: 500;
+    font-size: 15px;
+}
+.kotak a{
+    background-color: #F1A204;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+.kotak a .putih{
+    color: white;
+}
+.kotak a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.atasDecs{
+    color: #0C084C;
+    font-size: 15px;
+}
+.beranda{
+    color: #F1A204;
+}
+.container{
+    width: 72%;
+    margin: auto;
+}
+.hero{
+    width: 85%;
+    background-color: white;
+    margin: auto;
+}
+br{
+    line-height: 1px;
+}
+h3{
+    color: #F1A204;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5%;
+}
+h1{
+    color: #0C084C;
+    font-weight: 600;
+    font-size: 50px;
+}
+span{
+    color: #0C084C;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+img .gambarorang{
+    padding: 100% 0% 0% 0%;
+    margin: auto;
+}
+.navbar{
+    /* padding: 10px 0px 10px 0px; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.menu ul li{
+    margin: 1px 15px 0px 15px;
+    text-align: center;
+}
+a:hover{
+    color: #F1A204;
+}
+.hero{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.kontakWA{
+    display: flex;
+    margin: 1px 10px 0px 10px;
+    justify-content: space-between;
+}
+.daftar{
+     color: white;
+     background-color: #F1A204;
+     border-radius: 5px;
+     padding: 10px;
+}
+.program{
+    color: #0C084C;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+    
+}
+.partner{
+    width: 85px;
+}
+.partner-head{
+    color: #0C084C;
+    margin: auto;
+    padding: 5% 0% 0% 0%;
+    text-align: center;
+}
+.sponsor{
+   
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-buttons{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn{
+    border: 1px solid #ddd;
+    background: none;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.filter-btn:hover,
+.filter-btn.active{
+    background-color: #ff6b00;
+    color: white;
+    border-color: #ff6b00;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gambar{
+    width: 30%;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: white;
+    font-family: poppins;
+}
+
+.text{
+    text-align: center;
+    color: #0C084C;
+    font-size: 43px;
+    font-family:poppins
+    font-wieght: bold;
+}
+
+.jurusan{
+    background-color: white;
+    display: flex;
+    justify-conten: center;
+}
+
+.tkj{
+    background-color: #F2F5F6;
+    font-family: poppins;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.tekstkj{
+    background-color: #F1A204;    
+    font-family: poppins;
+    padding; 12px 24px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tkj{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.buttontext{
+    font-size: 14px;
+    text-align: left;
+    marggin-top: 20px;
+    padding: 0px 0px 0px 5px;
+    color: #687279
+}
+
+.silabus{
+    background-color: #0C084C;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-wieght: 700;
+}
+
+.dkv{
+    background-color: #F2F5F6;
+    font-family: poppins;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.teksdkv{
+    background-color: #F1A204;    
+    font-family: poppins;
+    padding; 12px 24px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dkv{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.rpl{
+    background-color: #F2F5F6;
+    font-family: poppins;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.teksrpl{
+    background-color: #F1A204;    
+    font-family: poppins;
+    padding; 12px 24px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.rpl{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.jurusan{
+    justify-content: center;
+}
+.text{
+    font-size: 40px;
+    font-weight: 600;
+}
+.text p{
+    color: #687279;
+}
