@@ -299,3 +299,30 @@ body{
 .text p{
     color: #687279;
 }
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.foto1{
+    width: 45%;
+    margin: 20px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
