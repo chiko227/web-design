@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 95%;
+      height: 45%;
+      border-radius: 70px;
+      margin-top: 265px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 70px;
+      filter:brightness(50%)
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 70px;
+      cursor: pointer;
+    }
+    .swiper-slide img:hover {
+      filter: brightness(1);
+    }
+    .text {
+      position: absolute;
+
+      font-weight: bold;
+      bottom: 8px;
+      left: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://preview.redd.it/freya-is-so-bad-rant-v0-thvvwztrjsac1.jpeg?width=640&crop=smart&auto=webp&s=c6ce19644e3e202cc2d7696ee858ae7073abc598" />
+        <div class="text">
+          Freya
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://media.suara.com/pictures/970x544/2022/11/15/96526-hayabusa-mobile-legends.jpg" />
+        <div class="text">
+          Hayabusa
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.oneesports.id/cdn-data/sites/2/2021/12/MLBB_Granger_Hellbringer_skin_closeup.jpg" />
+        <div class="text">
+          Granger
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://d1tgyzt3mf06m9.cloudfront.net/v3-staging/2024/07/Anak-Emas-Moonton-Inilah-5-Hero-Mobile-Legends-dengan-Skin-Terbanyak.jpg" />
+        <div class="text">
+          Chou
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.oneesports.id/cdn-data/wp-content/uploads/sites/2/2021/03/MLBB_NightOwl_Gusion-450x280.jpg" />
+        <div class="text">
+          Gusion
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.oneesports.gg/cdn-data/sites/2/2021/07/Mobile-Legends_Death-Oath_Benedetta.jpg" />
+        <div class="text">
+          Benedetta
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
+ 

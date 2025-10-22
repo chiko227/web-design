@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .container{
+            width: 30%;
+            margin: auto;
+            border-radius: 10px;
+            background-color: #f2f2f2;
+            padding: 50px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 7px;
+        }
+
+        input[type="Submit"]{
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: #5d29eb;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .cuih h5 {
+            color: #865bff;
+            text-align: right;
+        }
+
+        .miaw h5 {
+            color: #865bff;
+            text-align: right;
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="">
+            <label for="username">Username</label>
+             <input
+             type="text" 
+             id="username"
+             name="username">
+
+             <div class="cuih">
+                <h5>Forgot Password?</h5>
+             </div>
+             
+
+             <label for="password">Password</label>
+             <input
+             type="text" 
+             id="password"
+             name="password">
+
+             <input type="Submit" value="Submit">
+            <div class="miaw">
+             <p>Don't have an account?<h5>sign up</h5></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: "konten1 konten2 konten3 konten4";
+            gap: 20px;
+            margin-top: 20px;
+            background-color: aqua;
+        }
+
+        .container .satu {
+            grid-area: konten1;
+        }
+        .container .dua {
+            grid-area: konten2;
+        }
+        .container .tiga {
+            grid-area: konten3;
+        }
+        .container .empat {
+            grid-area: konten4;
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-areas: 
+            "bagian1 bagian2"                    
+            "bagian3 bagian4";
+            gap: 20px;
+            margin-top: 20px;
+            background-color: lightgreen;
+        }
+
+        .container2 .bagian1 {
+            grid-area: bagian1;
+        }
+        .container2 .bagian2 {
+            grid-area: bagian2;
+        }
+        .container2 .bagian3 {
+            grid-area: bagian3;
+        }
+        .container2 .bagian4 {
+            grid-area: bagian4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eum eius? Alias enim repellat dolorem porro optio magni ea recusandae dignissimos, molestiae quos, possimus iure, quidem neque et molestias ipsam?
+        </div>
+        <div class="dua">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quaerat distinctio voluptas cum. Voluptate, porro dolores ratione fugiat dolore nostrum amet repellat inventore, iusto nobis eaque illum. Iusto, enim! Ex.
+        </div>
+        <div class="tiga">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad illo, maiores quo earum accusantium doloremque recusandae, asperiores animi, laborum laboriosam. Sed voluptatibus suscipit expedita cupiditate perferendis, explicabo ratione provident?
+        </div>
+        <div class="empat">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quidem ducimus hic saepe rerum iusto voluptas. Tempora nam suscipit culpa! Accusantium itaque minus cum optio veniam magni iure aspernatur autem.
+        </div>  
+    </div>
+    <div class="container2">
+        <div class="bagian1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eum eius? Alias enim repellat dolorem porro optio magni ea recusandae dignissimos, molestiae quos, possimus iure, quidem neque et molestias ipsam?
+        </div>
+        <div class="bagian2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quaerat distinctio voluptas cum. Voluptate, porro dolores ratione fugiat dolore nostrum amet repellat inventore, iusto nobis eaque illum. Iusto, enim! Ex.
+        </div>
+        <div class="bagian3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad illo, maiores quo earum accusantium doloremque recusandae, asperiores animi, laborum laboriosam. Sed voluptatibus suscipit expedita cupiditate perferendis, explicabo ratione provident?
+        </div>
+        <div class="bagian4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quidem ducimus hic saepe rerum iusto voluptas. Tempora nam suscipit culpa! Accusantium itaque minus cum optio veniam magni iure aspernatur autem.
+        </div>
+    </div>
+</body>
+</html>
